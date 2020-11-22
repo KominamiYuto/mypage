@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T14:05:59.308Z" agent="5.0 (Windows)" etag="SOQChtuVD7xfUOO9RJys" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T14:07:18.027Z" agent="5.0 (Windows)" etag="8Pq5q2X78Cb7bA-vEmMu" version="13.10.0" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -378,9 +378,9 @@
           <mxGeometry x="450" y="-430" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-21" value="HRESULT CreateRootSignature()&#xa;ルートシグネチャーレイアウトを作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-130" width="250" height="118" as="geometry" />
+          <mxGeometry x="540" y="-130" width="250" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="1M7FftopG9SxbSlYeH0U-22" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
+        <mxCell id="1M7FftopG9SxbSlYeH0U-22" value="+ nodeMask: シングルGPUの場合にゼロ。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
           <mxGeometry y="40" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
@@ -388,6 +388,9 @@
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
           <mxGeometry y="92" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeyLNfM1O47L-fauejLD-48" target="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
