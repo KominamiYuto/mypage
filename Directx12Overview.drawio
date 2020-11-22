@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T11:49:11.851Z" agent="5.0 (Windows)" etag="vfS-qULLdtRFyLv-zse0" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T11:55:20.367Z" agent="5.0 (Windows)" etag="NT3wstPRFodHHRg2llk1" version="13.10.0" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
-    <mxGraphModel dx="3022" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,34 +153,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-66" value="D3D12_GRAPHICS_PIPELINE_STATE_DESC&#xa;グラフィックパイプラインにかかわる設定をする" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="150" width="340" height="284" as="geometry" />
+          <mxGeometry x="-180" y="-20" width="580" height="388" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-67" value="+ *pRootSignature: ルートシグネチャーのポインタ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="50" width="340" height="26" as="geometry" />
+          <mxGeometry y="50" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-68" value="+ VS: コンパイルした頂点シェーダー構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="76" width="340" height="26" as="geometry" />
+          <mxGeometry y="76" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-70" value="+ PS: コンパイルしたピクセルシェーダー構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="102" width="340" height="26" as="geometry" />
+          <mxGeometry y="102" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-71" value="+ DS: コンパイルしたドメインシェーダー構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="128" width="340" height="26" as="geometry" />
+          <mxGeometry y="128" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-72" value="+ HS: コンパイルしたハルシェーダー構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="154" width="340" height="26" as="geometry" />
+          <mxGeometry y="154" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-73" value="+ GS: コンパイルしたジオメトリシェーダー構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="180" width="340" height="26" as="geometry" />
+          <mxGeometry y="180" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-74" value="+ StreamOutput: ストリーミング出力構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="206" width="340" height="26" as="geometry" />
+          <mxGeometry y="206" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-75" value="+ BlendState: D3D12_BLEND_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="232" width="340" height="26" as="geometry" />
+          <mxGeometry y="232" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-76" value="+ UINT SampleMask: D3D12_BLEND_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
-          <mxGeometry y="258" width="340" height="26" as="geometry" />
+        <mxCell id="HeyLNfM1O47L-fauejLD-76" value="+ UINT SampleMask: ブレンドするするときのサンプル値、標準で0xffffffff" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+          <mxGeometry y="258" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-77" value="+ RasterizerState: ラスタライザについて書かれたD3D12_RASTERIZER_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+          <mxGeometry y="284" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-80" value="+ DepthStencilState: 深度について書かれたD3D12_DEPTH_STENCIL_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+          <mxGeometry y="310" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-81" value="+ InputLayout: シェーダーに渡す値が入ったD3D12_INPUT_LAYOUT_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+          <mxGeometry y="336" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-82" value="+ RasterizerState: D3D12_RASTERIZER_DESC構造体がある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+          <mxGeometry y="362" width="580" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
