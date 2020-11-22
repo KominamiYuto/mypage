@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T13:30:56.311Z" agent="5.0 (Windows)" etag="xt8fcl7pdLnpxWbT6UXl" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T13:36:39.018Z" agent="5.0 (Windows)" etag="wb5nLdr6hXbwehYVwCHA" version="13.10.0" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -322,6 +322,24 @@
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-129" value="+ ConservativeRaster: 保守的（安全）なラスタライズを行うかどうか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
           <mxGeometry y="340" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-131" value="D3D12_ROOT_SIGNATURE_DESC&#xa;ルートシグネチャーにかかわる設定をする構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-420" width="530" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-132" value="+ NumParameters: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-131">
+          <mxGeometry y="40" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-133" value="+ *pParameters: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-131">
+          <mxGeometry y="66" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-134" value="+ NumStaticSamplers: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-131">
+          <mxGeometry y="92" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-135" value="+ *pStaticSamplers: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-131">
+          <mxGeometry y="118" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-136" value="+ Flags: ルートシグネチャーのオプションを記述。頂点バッファが存在するかどうかも記述する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-131">
+          <mxGeometry y="144" width="530" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
