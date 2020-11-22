@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T12:58:27.299Z" agent="5.0 (Windows)" etag="MSx8L-7B4xRcegocVIKp" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T13:30:56.311Z" agent="5.0 (Windows)" etag="xt8fcl7pdLnpxWbT6UXl" version="13.10.0" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
         <mxCell id="HeyLNfM1O47L-fauejLD-85" value="+ NumRenderTargets:レンダーターゲットの数（マルチレンダーの場合は２つ以上に同時にレンダリングする） " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
           <mxGeometry y="414" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-86" value="+ RTVFormats[8]:レンダーターゲットテクスチャのフォーマット " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
+        <mxCell id="HeyLNfM1O47L-fauejLD-86" value="+ RTVFormats[8]:レンダーターゲットテクスチャのフォーマット。番号にはレンダーターゲットの番号がはいる " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
           <mxGeometry y="440" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-88" value="+ DSVFormat:depth-stencilのフォーマット " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-66">
@@ -284,17 +284,44 @@
         <mxCell id="HeyLNfM1O47L-fauejLD-115" value="+ RenderTargetWriteMask: 書き込むときのマスクの値" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-105">
           <mxGeometry y="274" width="330" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="HeyLNfM1O47L-fauejLD-118" target="HeyLNfM1O47L-fauejLD-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-118" value="D3D12_RASTERIZER_DESC&#xa;ラスタライザの設定を記述する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="200" width="320" height="118" as="geometry" />
+          <mxGeometry x="-920" y="180" width="520" height="366" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-119" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
-          <mxGeometry y="40" width="320" height="26" as="geometry" />
+        <mxCell id="HeyLNfM1O47L-fauejLD-119" value="+ FillMode: ポリゴンをどう塗りつぶすか。ワイヤーフレームにもできる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="40" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-120" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
-          <mxGeometry y="66" width="320" height="26" as="geometry" />
+        <mxCell id="HeyLNfM1O47L-fauejLD-120" value="+ CullMode: 背面カリングするかどうかみたいな設定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="66" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-121" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
-          <mxGeometry y="92" width="320" height="26" as="geometry" />
+        <mxCell id="HeyLNfM1O47L-fauejLD-121" value="+ FrontCounterClockwise: 時計回りと反時計回りのどちらが全面になるか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="92" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-122" value="+ DepthBias: 深度バッファに追加するバイアスの量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="118" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-123" value="+ DepthBiasClamp: ピクセルの最大深度バイアス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="144" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-124" value="+ SlopeScaledDepthBias: 深度バッファに乗算するバイアスの量？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="170" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-125" value="+ DepthClipEnable: Zクリッピングをするかどうか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="196" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-126" value="+ MultisampleEnable: MSAAを使用しているとき、四辺形ラインアンチエイリアスを行うか、&#xa;アルファラインアンチエイリアスを行うか。ワイヤーフレームのとき以外TRUE推奨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="222" width="520" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-127" value="+ AntialiasedLineEnable: ワイヤーフレームのとき、ラインアンチエイリアスを行うかどうか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="270" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-128" value="+ ForcedSampleCount: UAVのレンダリングまたはラスタライズのときに、&#xa;サンプル数を強制させることができる。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="296" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="HeyLNfM1O47L-fauejLD-129" value="+ ConservativeRaster: 保守的（安全）なラスタライズを行うかどうか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-118">
+          <mxGeometry y="340" width="520" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
