@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T14:07:18.027Z" agent="5.0 (Windows)" etag="8Pq5q2X78Cb7bA-vEmMu" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T15:00:43.582Z" agent="5.0 (Windows)" etag="LT9EN0AhjMtZLTxEVaHI" version="13.10.0" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
           <mxGeometry y="60" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-46" value="ID3D12Device&#xa;リソースビューを作成するために使用されるクラスオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="30" width="380" height="118" as="geometry" />
+          <mxGeometry x="780" y="20" width="380" height="118" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-47" value="+ HRESULT CreateGraphicsPipelineState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-46" vertex="1">
           <mxGeometry y="40" width="380" height="26" as="geometry" />
@@ -116,10 +116,10 @@
         <mxCell id="HeyLNfM1O47L-fauejLD-51" value="+ *pDesc: D3D12_GRAPHICS_PIPELINE_STATE_DESC構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-50" vertex="1">
           <mxGeometry y="40" width="485" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-52" value="+ riid: ID3D12PipelineStateインターフェイスをつくるよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-50" vertex="1">
+        <mxCell id="HeyLNfM1O47L-fauejLD-52" value="+ riid: ID3D12PipelineState オブジェクトをつくるよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-50" vertex="1">
           <mxGeometry y="66" width="485" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HeyLNfM1O47L-fauejLD-53" value="+ ppPipelineState: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-50" vertex="1">
+        <mxCell id="HeyLNfM1O47L-fauejLD-53" value="+ **ppPipelineState: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-50" vertex="1">
           <mxGeometry y="92" width="485" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" parent="1" source="HeyLNfM1O47L-fauejLD-47" target="HeyLNfM1O47L-fauejLD-50" edge="1">
@@ -327,7 +327,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-131" value="D3D12_ROOT_SIGNATURE_DESC&#xa;ルートシグネチャーにかかわる設定をする構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="-420" width="530" height="170" as="geometry" />
+          <mxGeometry x="-120" y="-410" width="530" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-132" value="+ NumParameters: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-131" vertex="1">
           <mxGeometry y="40" width="530" height="26" as="geometry" />
@@ -345,7 +345,7 @@
           <mxGeometry y="144" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-1" value="HRESULT D3D12SerializeRootSignature()&#xa;ルートシグネチャーのバイナリコードを作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="-280" width="490" height="130" as="geometry" />
+          <mxGeometry x="460" y="-340" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-2" value="+ *pRootSignature: D3D12_ROOT_SIGNATURE_DESCのアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-1">
           <mxGeometry y="26" width="490" height="26" as="geometry" />
@@ -375,21 +375,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-11" value="&lt;div&gt;ID3DBlob* rootsigBlob　して&lt;/div&gt;&lt;div&gt;ルートシグネチャーのバイナリを作る&lt;br&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-430" width="280" height="50" as="geometry" />
+          <mxGeometry x="450" y="-490" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-21" value="HRESULT CreateRootSignature()&#xa;ルートシグネチャーレイアウトを作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="-130" width="250" height="118" as="geometry" />
+          <mxGeometry x="515" y="-162" width="490" height="170" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-22" value="+ nodeMask: シングルGPUの場合にゼロ。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
-          <mxGeometry y="40" width="250" height="26" as="geometry" />
+          <mxGeometry y="40" width="490" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1M7FftopG9SxbSlYeH0U-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
-          <mxGeometry y="66" width="250" height="26" as="geometry" />
+        <mxCell id="1M7FftopG9SxbSlYeH0U-23" value="+ *pBlobWithRootSignature: シリアライズされたルートシグネチャーへのポインタ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry y="66" width="490" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1M7FftopG9SxbSlYeH0U-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
-          <mxGeometry y="92" width="250" height="26" as="geometry" />
+        <mxCell id="1M7FftopG9SxbSlYeH0U-24" value="+ blobLengthInBytes: シリアライズされたルートシグネチャーのバイト長" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry y="92" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-26" value="+ riid: ID3D12RootSignature オブジェクトをつくるよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry y="118" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-27" value="+ **ppvRootSignature: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry y="144" width="490" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeyLNfM1O47L-fauejLD-48" target="1M7FftopG9SxbSlYeH0U-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1M7FftopG9SxbSlYeH0U-4" target="1M7FftopG9SxbSlYeH0U-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1M7FftopG9SxbSlYeH0U-4" target="1M7FftopG9SxbSlYeH0U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M7FftopG9SxbSlYeH0U-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1M7FftopG9SxbSlYeH0U-26" target="HeyLNfM1O47L-fauejLD-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
