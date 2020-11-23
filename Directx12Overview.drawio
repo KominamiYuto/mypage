@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T09:22:55.851Z" agent="5.0 (Windows)" etag="yzZziGncvO5QyvYtZCzh" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T09:57:58.275Z" agent="5.0 (Windows)" etag="xDPKEe-wV1xcQv3OmOMy" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
           <mxGeometry y="60" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-46" value="ID3D12Device&#xa;リソースビューを作成するために使用されるクラスオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="780" y="20" width="380" height="144" as="geometry" />
+          <mxGeometry x="780" y="20" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-47" value="+ HRESULT CreateGraphicsPipelineState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-46" vertex="1">
           <mxGeometry y="40" width="380" height="26" as="geometry" />
@@ -124,6 +124,9 @@
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-20" value="+ void IASetVertexBuffers(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-46">
           <mxGeometry y="118" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-65" value="+ HRESULT CreateCommittedResource(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-46">
+          <mxGeometry y="144" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-50" value="HRESULT CreateGraphicsPipelineState()&#xa;グラフィックスパイプライン状態オブジェクトの作成" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="195" y="530" width="485" height="118" as="geometry" />
@@ -518,17 +521,17 @@
         <mxCell id="E_Vy0KgG0cyffUlwo2it-25" value="+ UINT StrideInBytes: 一頂点あたりのバイト長" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-22">
           <mxGeometry y="91" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-27" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="270" width="140" height="104" as="geometry" />
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-27" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="140" height="118" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-28" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-27">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry y="40" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-29" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-27">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+          <mxGeometry y="66" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-30" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-27">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+          <mxGeometry y="92" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-36" value="Map()&#xa;GPUとCPUで共通した値を持つポインタ変数を作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="2040" y="500" width="450" height="130" as="geometry" />
@@ -598,11 +601,29 @@
         <mxCell id="E_Vy0KgG0cyffUlwo2it-62" value="+ SampleDesc: アンチエイリアスについて書かれたDXGI_SAMPLE_DESCがある" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
           <mxGeometry y="222" width="530" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-63" value="+ Layout: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-63" value="+ Layout: テクスチャのメモリレイアウトを指定する（テクスチャーが行優先か列優先かなど）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
           <mxGeometry y="248" width="530" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-64" value="+ Flags: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-64" value="+ Flags: リソース操作のための追加のオプションなど" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
           <mxGeometry y="274" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-72" value="CreateCommittedResource()&#xa;GPUが使用するリソースのメモリ管理をするID3D12Resourceオブジェクトの生成のための関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-332" width="580" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ HRESULT CreateGraphicsPipelineState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="40" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-74" value="+ HRESULT CreateRootSignature() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="66" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-75" value="+ void IASetPrimitiveTopology(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="92" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-76" value="+ void IASetVertexBuffers(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="118" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-77" value="+ HRESULT CreateCommittedResource(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="144" width="580" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
