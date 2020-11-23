@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T15:30:21.730Z" agent="5.0 (Windows)" etag="4JUXFh8fdJk6ir28M_Hm" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T15:31:05.155Z" agent="5.0 (Windows)" etag="RR9lzIA2ItP0zdWPaFaq" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3273" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-54" value="D3D12_RESOURCE_DESC&#xa;GPUに渡すデータ（リソース）について記述する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="-520" width="530" height="300" as="geometry">
+          <mxGeometry x="980" y="-476" width="530" height="300" as="geometry">
             <mxRectangle x="980" y="-475" width="330" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -617,7 +617,7 @@
           <mxGeometry y="274" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-72" value="CreateCommittedResource()&#xa;GPUが使用するリソースのメモリ管理をするID3D12Resourceオブジェクトの生成のための関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1265" y="-90" width="580" height="230" as="geometry" />
+          <mxGeometry x="1250" y="-150" width="580" height="230" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ *pHeapProperties:D3D12_HEAP_PROPERTIES構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
           <mxGeometry y="40" width="580" height="26" as="geometry" />
@@ -650,7 +650,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-5" value="heapProperties&#xa;CPUとGPUがこのデータをどう操作できるかを記述した構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="-302" width="500" height="184" as="geometry" />
+          <mxGeometry x="1630" y="-360" width="500" height="184" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-6" value="+ Type: ヒープのタイプを決める&#xa;（アップロード専用か読み書きもできるかCPUから全く読めないか）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
           <mxGeometry y="40" width="500" height="40" as="geometry" />
