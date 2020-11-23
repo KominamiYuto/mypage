@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T09:57:58.275Z" agent="5.0 (Windows)" etag="xDPKEe-wV1xcQv3OmOMy" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T10:20:51.893Z" agent="5.0 (Windows)" etag="AUAMlwmBV4nWrF6fgP72" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -608,22 +608,28 @@
           <mxGeometry y="274" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-72" value="CreateCommittedResource()&#xa;GPUが使用するリソースのメモリ管理をするID3D12Resourceオブジェクトの生成のための関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="-332" width="580" height="170" as="geometry" />
+          <mxGeometry x="1140" y="-420" width="580" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ HRESULT CreateGraphicsPipelineState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ *pHeapProperties:D3D12_HEAP_PROPERTIESのアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
           <mxGeometry y="40" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-74" value="+ HRESULT CreateRootSignature() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-74" value="+ HeapFlags " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
           <mxGeometry y="66" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-75" value="+ void IASetPrimitiveTopology(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-75" value="+ *pDesc: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
           <mxGeometry y="92" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-76" value="+ void IASetVertexBuffers(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-76" value="+ InitialResourceState: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
           <mxGeometry y="118" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-77" value="+ HRESULT CreateCommittedResource(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-77" value="+ *pOptimizedClearValue: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
           <mxGeometry y="144" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-78" value="+ riidResource: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="170" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-79" value="+ **ppvResource: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-72">
+          <mxGeometry y="196" width="580" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
