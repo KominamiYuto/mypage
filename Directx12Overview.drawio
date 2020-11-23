@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T15:12:37.170Z" agent="5.0 (Windows)" etag="-Fql6ZMRa2JGVMzMajH3" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T15:13:52.106Z" agent="5.0 (Windows)" etag="QRtzLjGbwdkkCV-2c7Ew" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
-    <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="4444" dy="2782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,7 +498,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-22" value="D3D12_VERTEX_BUFFER_VIEW&#xa;頂点に関する設定が記述された構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="610" width="370" height="117" as="geometry" />
+          <mxGeometry x="1330" y="490" width="370" height="117" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-23" value="+ BufferLocation: 頂点バッファのアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-22" vertex="1">
           <mxGeometry y="39" width="370" height="26" as="geometry" />
@@ -545,7 +545,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-41" value="Unmap(()&#xa;GPUとCPUで共通した値を持つポインタ変数を破棄する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1690" y="740" width="560" height="110" as="geometry" />
+          <mxGeometry x="1660" y="725" width="560" height="110" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-42" value="+ UNIT Subresource: ミップマッピングとかするときにその番号が入る？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-41" vertex="1">
           <mxGeometry y="40" width="560" height="26" as="geometry" />
@@ -699,7 +699,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lth_bIhGYZAqtF38hZrK-13" value="D3D12_INDEX_BUFFER_VIEW&#xa;頂点インデックスに関する設定が記述された構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="863" width="350" height="117" as="geometry" />
+          <mxGeometry x="2060" y="870" width="350" height="117" as="geometry" />
         </mxCell>
         <mxCell id="Lth_bIhGYZAqtF38hZrK-14" value="+ BufferLocation: 頂点インデックスバッファのアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Lth_bIhGYZAqtF38hZrK-13">
           <mxGeometry y="39" width="350" height="26" as="geometry" />
