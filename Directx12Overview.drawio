@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T06:37:38.337Z" agent="5.0 (Windows)" etag="BBzeB6q41XS989wVyCTe" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T06:59:08.629Z" agent="5.0 (Windows)" etag="PA6Xg-IoMLyLd5lR6O0r" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -531,7 +531,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-36" value="Map()&#xa;GPUとCPUで共通した値を持つポインタ変数を作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="512" width="450" height="130" as="geometry" />
+          <mxGeometry x="2040" y="500" width="450" height="130" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-37" value="+ UNIT Subresource: ミップマッピングとかするときにその番号が入る？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-36">
           <mxGeometry y="40" width="450" height="26" as="geometry" />
@@ -556,6 +556,53 @@
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGGLOGaCN9-Cet3tq3qy-4" target="E_Vy0KgG0cyffUlwo2it-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_Vy0KgG0cyffUlwo2it-47" target="E_Vy0KgG0cyffUlwo2it-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-53" value="&lt;div&gt;GetGPUVirtualAddress()でアドレスを取得&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelPosition=center;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="E_Vy0KgG0cyffUlwo2it-52">
+          <mxGeometry x="0.3301" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-47" value="GetGPUVirtualAddress()&#xa;このデータのGPUの仮想アドレスを返す関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="276" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_Vy0KgG0cyffUlwo2it-31" target="E_Vy0KgG0cyffUlwo2it-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-54" value="D3D12_RESOURCE_DESC&#xa;GPUに渡すデータ（リソース）について設定する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-118" width="410" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-55" value="+ Dimension: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="40" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-56" value="+ Alignment: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="66" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-57" value="+ Width: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="92" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-58" value="+ Height: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="118" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-59" value="+ DepthOrArraySize: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="144" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-60" value="+ MipLevels: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="170" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-61" value="+ Format: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="196" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-62" value="+ SampleDesc: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="222" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-63" value="+ Layout: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="248" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-64" value="+ Flags: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E_Vy0KgG0cyffUlwo2it-54">
+          <mxGeometry y="274" width="410" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
