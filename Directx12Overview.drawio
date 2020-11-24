@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T03:10:27.274Z" agent="5.0 (Windows)" etag="dOEjUiWsN2XQCWzaywQq" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T05:17:30.801Z" agent="5.0 (Windows)" etag="amUwaYm40kyh_b66dnnX" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -617,28 +617,28 @@
           <mxGeometry y="274" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-72" value="CreateCommittedResource()&#xa;GPUが使用するリソースのメモリ管理をするID3D12Resourceオブジェクトの生成のための関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="-150" width="580" height="230" as="geometry" />
+          <mxGeometry x="1270" y="-150" width="550" height="230" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ *pHeapProperties:D3D12_HEAP_PROPERTIES構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="40" width="580" height="26" as="geometry" />
+          <mxGeometry y="40" width="550" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-74" value="+ HeapFlags:ヒープにテクスチャを含めることができるかどうか、&#xa;                         リソースをアダプタ間で共有するかどうかなど、ヒープオプションを指定します。 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="66" width="580" height="34" as="geometry" />
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-74" value="+ HeapFlags:ヒープにテクスチャを含めることができるかどうか、&#xa;                         リソースをアダプタ間で共有するかどうかなど、ヒープオプションを指定する。 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
+          <mxGeometry y="66" width="550" height="34" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-75" value="+ *pDesc: D3D12_RESOURCE_DESC構造体のアドレスを入れる " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="100" width="580" height="26" as="geometry" />
+          <mxGeometry y="100" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-76" value="+ InitialResourceState: このリソースがどのように使われるか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="126" width="580" height="26" as="geometry" />
+          <mxGeometry y="126" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-77" value="+ *pOptimizedClearValue: リソースのクリア処理を行なうための値？（nullでいい）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="152" width="580" height="26" as="geometry" />
+          <mxGeometry y="152" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-78" value="+ riidResource: ID3D12Resourceオブジェクトを作るよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="178" width="580" height="26" as="geometry" />
+          <mxGeometry y="178" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-79" value="+ **ppvResource: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
-          <mxGeometry y="204" width="580" height="26" as="geometry" />
+          <mxGeometry y="204" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E_Vy0KgG0cyffUlwo2it-65" target="E_Vy0KgG0cyffUlwo2it-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -650,22 +650,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-5" value="heapProperties&#xa;CPUとGPUがこのデータをどう操作できるかを記述した構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="-360" width="500" height="184" as="geometry" />
+          <mxGeometry x="1630" y="-370" width="510" height="184" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-6" value="+ Type: ヒープのタイプを決める&#xa;（アップロード専用か読み書きもできるかCPUから全く読めないか）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
-          <mxGeometry y="40" width="500" height="40" as="geometry" />
+          <mxGeometry y="40" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-7" value="+ CPUPageProperty: ヒープのページプロパティの設定（CPUからアクセスできるかどうか）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
-          <mxGeometry y="80" width="500" height="26" as="geometry" />
+          <mxGeometry y="80" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-8" value="+ MemoryPoolPreference: メモリの場所（CPU側にあるかGPU側にあるか）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
-          <mxGeometry y="106" width="500" height="26" as="geometry" />
+          <mxGeometry y="106" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-9" value="+ CreationNodeMask: 複数のGPUがある場合、どのGPUにメモリを作成するかのノード番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
-          <mxGeometry y="132" width="500" height="26" as="geometry" />
+          <mxGeometry y="132" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-10" value="+ VisibleNodeMask: リソースが見えているノード番号。CreationNodeMaskと原則同じ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
-          <mxGeometry y="158" width="500" height="26" as="geometry" />
+          <mxGeometry y="158" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Lth_bIhGYZAqtF38hZrK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1M7FftopG9SxbSlYeH0U-46" target="E_Vy0KgG0cyffUlwo2it-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -737,6 +737,27 @@
         </mxCell>
         <mxCell id="Lth_bIhGYZAqtF38hZrK-31" value="+ StartInstanceLocation: 頂点バッファからインスタンスごとのデータを読み取る前に、&#xa;                                             各番号に追加される値。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lth_bIhGYZAqtF38hZrK-26" vertex="1">
           <mxGeometry y="180" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-2" value="HRESULT WriteToSubresource()&#xa;CPUを利用してテクスチャデータをサブリソースにコピーする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="628" width="450" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-3" value="+ UINT DstSubresource:サブリソースのインデックス番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry y="40" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-4" value="+ *pDstBox: コピーする先の箱の大きさ（寸法）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry y="66" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-5" value="+ *pSrcData: 転送するデータのアドレスが入る" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry y="92" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-6" value="+ UINT SrcRowPitch: 一つの行のバイト長（300×200テクスチャの場合300）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry y="118" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-7" value="+ UINT SrcDepthPitch:複数テクスチャの場合、一つのテクスチャのバイトサイズ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry y="144" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_Vy0KgG0cyffUlwo2it-35" target="bkLNbHRLDbfqS2Prwh68-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
