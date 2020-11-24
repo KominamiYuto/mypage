@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T11:07:58.694Z" agent="5.0 (Windows)" etag="1g3A6Kf-2yyFp3WC0-_C" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T14:56:51.946Z" agent="5.0 (Windows)" etag="wxirbnsauIPxfawExNKK" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uGGLOGaCN9-Cet3tq3qy-1" target="bkLNbHRLDbfqS2Prwh68-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uGGLOGaCN9-Cet3tq3qy-1" value="ID3D12Resource&#xa;データをCPUとGPUでやり取りするためのオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="240" width="530" height="222" as="geometry" />
+          <mxGeometry x="1250" y="148" width="530" height="222" as="geometry" />
         </mxCell>
         <mxCell id="uGGLOGaCN9-Cet3tq3qy-2" value="+ GetDesc(): データに関する情報が記述されているD3D12_RESOURCE_DESC構造体を返す " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uGGLOGaCN9-Cet3tq3qy-1" vertex="1">
           <mxGeometry y="40" width="530" height="26" as="geometry" />
@@ -111,7 +114,7 @@
           <mxGeometry y="60" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-46" value="ID3D12Device&#xa;リソースビューを作成するために使用されるクラスオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="630" y="96" width="380" height="144" as="geometry" />
+          <mxGeometry x="1080" y="-40" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-47" value="+ HRESULT CreateGraphicsPipelineState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HeyLNfM1O47L-fauejLD-46" vertex="1">
           <mxGeometry y="40" width="380" height="26" as="geometry" />
@@ -124,6 +127,9 @@
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-15" value="+ HRESULT CreateDescriptorHeap(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-46">
           <mxGeometry y="118" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-33" value="+ void CreateShaderResourceView(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HeyLNfM1O47L-fauejLD-46">
+          <mxGeometry y="144" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HeyLNfM1O47L-fauejLD-50" value="HRESULT CreateGraphicsPipelineState()&#xa;グラフィックスパイプライン状態オブジェクトの作成" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="195" y="530" width="485" height="118" as="geometry" />
@@ -360,7 +366,7 @@
           <mxGeometry y="144" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-1" value="HRESULT D3D12SerializeRootSignature()&#xa;ルートシグネチャーのバイナリコードを作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-340" width="490" height="130" as="geometry" />
+          <mxGeometry x="500" y="-390" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-2" value="+ *pRootSignature: D3D12_ROOT_SIGNATURE_DESC構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1M7FftopG9SxbSlYeH0U-1" vertex="1">
           <mxGeometry y="26" width="490" height="26" as="geometry" />
@@ -390,10 +396,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-11" value="&lt;div&gt;ID3DBlob* rootsigBlob　して&lt;/div&gt;&lt;div&gt;ルートシグネチャーのバイナリを作る&lt;br&gt;&lt;/div&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="-490" width="280" height="50" as="geometry" />
+          <mxGeometry x="440" y="-540" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-21" value="HRESULT CreateRootSignature()&#xa;ルートシグネチャーレイアウトを作る関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="520" y="-150" width="490" height="170" as="geometry" />
+          <mxGeometry x="520" y="-170" width="490" height="170" as="geometry" />
         </mxCell>
         <mxCell id="1M7FftopG9SxbSlYeH0U-22" value="+ nodeMask: シングルGPUの場合にゼロ。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1M7FftopG9SxbSlYeH0U-21" vertex="1">
           <mxGeometry y="40" width="490" height="26" as="geometry" />
@@ -465,7 +471,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-1" value="SetGraphicsRootSignature()&#xa;コマンドリストもしくはバンドルにルートシグネチャーを設定する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=34;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="780" y="854" width="420" height="60" as="geometry" />
+          <mxGeometry x="780" y="874" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-2" value="+ *pRootSignature: ID3D12RootSignatureオブジェクトが入る" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-1" vertex="1">
           <mxGeometry y="34" width="420" height="26" as="geometry" />
@@ -501,7 +507,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-22" value="D3D12_VERTEX_BUFFER_VIEW&#xa;頂点に関する設定が記述された構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="490" width="370" height="117" as="geometry" />
+          <mxGeometry x="1330" y="542" width="370" height="117" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-23" value="+ BufferLocation: 頂点バッファのアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-22" vertex="1">
           <mxGeometry y="39" width="370" height="26" as="geometry" />
@@ -513,7 +519,7 @@
           <mxGeometry y="91" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-27" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="240" width="140" height="118" as="geometry" />
+          <mxGeometry x="460" y="282" width="140" height="118" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-28" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-27" vertex="1">
           <mxGeometry y="40" width="140" height="26" as="geometry" />
@@ -548,7 +554,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-41" value="Unmap(()&#xa;GPUとCPUで共通した値を持つポインタ変数を破棄する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="744" width="560" height="110" as="geometry" />
+          <mxGeometry x="1560" y="749" width="560" height="110" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-42" value="+ UNIT Subresource: ミップマッピングとかするときにその番号が入る？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-41" vertex="1">
           <mxGeometry y="40" width="560" height="26" as="geometry" />
@@ -576,7 +582,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-47" value="GetGPUVirtualAddress()&#xa;このデータのGPUの仮想アドレスを返す関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="276" width="250" height="66" as="geometry" />
+          <mxGeometry x="1880" y="308" width="250" height="66" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E_Vy0KgG0cyffUlwo2it-31" target="E_Vy0KgG0cyffUlwo2it-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -585,7 +591,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-54" value="D3D12_RESOURCE_DESC&#xa;GPUに渡すデータ（リソース）について記述する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="-476" width="530" height="300" as="geometry">
+          <mxGeometry x="970" y="-710" width="530" height="300" as="geometry">
             <mxRectangle x="980" y="-475" width="330" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -620,7 +626,7 @@
           <mxGeometry y="274" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-72" value="CreateCommittedResource()&#xa;GPUが使用するリソースのメモリ管理をするID3D12Resourceオブジェクトの生成のための関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="-150" width="550" height="230" as="geometry" />
+          <mxGeometry x="1250" y="-348" width="550" height="230" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-73" value="+ *pHeapProperties:D3D12_HEAP_PROPERTIES構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-72" vertex="1">
           <mxGeometry y="40" width="550" height="26" as="geometry" />
@@ -653,7 +659,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-5" value="heapProperties&#xa;CPUとGPUがこのデータをどう操作できるかを記述した構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="-370" width="510" height="184" as="geometry" />
+          <mxGeometry x="1630" y="-674" width="510" height="184" as="geometry" />
         </mxCell>
         <mxCell id="o0eyLhhUvLqZFOwODuf7-6" value="+ Type: ヒープのタイプを決める&#xa;（アップロード専用か読み書きもできるかCPUから全く読めないか）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o0eyLhhUvLqZFOwODuf7-5" vertex="1">
           <mxGeometry y="40" width="510" height="40" as="geometry" />
@@ -742,7 +748,7 @@
           <mxGeometry y="180" width="480" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-2" value="HRESULT WriteToSubresource()&#xa;CPUを利用してテクスチャデータをサブリソースにコピーする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="628" width="450" height="170" as="geometry" />
+          <mxGeometry x="1000" y="670" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-3" value="+ UINT DstSubresource:サブリソースのインデックス番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-2">
           <mxGeometry y="40" width="450" height="26" as="geometry" />
@@ -766,7 +772,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-10" value="D3D12_DESCRIPTOR_HEAP_DESC &#xa;デスクリプタヒープに関する設定を記述する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="-280" width="470" height="158" as="geometry" />
+          <mxGeometry x="1610" y="-100" width="470" height="158" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-11" value="+ Type: このビューをどのように使うのか&#xa;（レンダリングするときのターゲットか、定数バッファとして使用するかなど）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-10">
           <mxGeometry y="40" width="470" height="40" as="geometry" />
@@ -781,7 +787,7 @@
           <mxGeometry y="132" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-16" value="HRESULT CreateDescriptorHeap()&#xa;ディスクリプタヒープを管理するためのID3D12DescriptorHeapオブジェクトを生成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="122" width="550" height="118" as="geometry" />
+          <mxGeometry x="1870" y="-240" width="550" height="118" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-17" value="+ *pDescriptorHeapDesc: D3D12_DESCRIPTOR_HEAP_DESC構造体のアドレスを入れる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-16">
           <mxGeometry y="40" width="550" height="26" as="geometry" />
@@ -793,6 +799,57 @@
           <mxGeometry y="92" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkLNbHRLDbfqS2Prwh68-15" target="bkLNbHRLDbfqS2Prwh68-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-22" value="ID3D12DescriptorHeap&#xa;ディスクリプタヒープのCPUとGPUのアドレスを管理するオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-14" width="500" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-23" value="+ GetCPUDescriptorHandleForHeapStart(): ヒープの開始を表すCPU記述子ハンドルを返す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-22">
+          <mxGeometry y="40" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-24" value="+ GetDesc(): これを作る時作ったD3D12_DESCRIPTOR_HEAP_DESC構造体を返す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-22">
+          <mxGeometry y="66" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-25" value="+ GetGPUDescriptorHandleForHeapStart(): ヒープの開始を表すGPU記述子ハンドルを返す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-22">
+          <mxGeometry y="92" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkLNbHRLDbfqS2Prwh68-26" target="bkLNbHRLDbfqS2Prwh68-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-26" value="D3D12_SHADER_RESOURCE_VIEW_DESC &#xa;シェーダーリソースビュー(SRV)について設定する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="-10" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-27" value="+ Format: テクスチャのフォーマット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-26">
+          <mxGeometry y="40" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-28" value="+ ViewDimension: テクスチャの次元を決める&#xa;（単なるバッファーか、1Dテクスチャー？2Dテクスチャ？）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-26">
+          <mxGeometry y="66" width="450" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-29" value="+ UINT Shader4ComponentMapping: データのRGBAをどの様に解釈するか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-26">
+          <mxGeometry y="110" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-32" value="+ union要素: テクスチャのミップマップをどうするかなどを設定する構造体が入る。&#xa;この要素はViewDimensionの次元によって入れる構造体が異なる。&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-26">
+          <mxGeometry y="136" width="450" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkLNbHRLDbfqS2Prwh68-19" target="bkLNbHRLDbfqS2Prwh68-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-34" value="CreateShaderResourceView()&#xa;シェーダーリソースビューを実際に作成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="240" width="620" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-35" value="+ *pResource: シェーダーリソースを表すID3D12Resourceオブジェクトのアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-34">
+          <mxGeometry y="40" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-36" value="+ *pDesc: シェーダーリソースビューを説明するD3D12_SHADER_RESOURCE_VIEW_DESC構造体のアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-34">
+          <mxGeometry y="66" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-37" value="+ DestDescriptor: シェーダーリソースビューを表すCPU記述子ハンドルが入る" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-34">
+          <mxGeometry y="92" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkLNbHRLDbfqS2Prwh68-33" target="bkLNbHRLDbfqS2Prwh68-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkLNbHRLDbfqS2Prwh68-25" target="bkLNbHRLDbfqS2Prwh68-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
