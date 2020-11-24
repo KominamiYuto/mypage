@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T05:17:30.801Z" agent="5.0 (Windows)" etag="amUwaYm40kyh_b66dnnX" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T10:24:18.242Z" agent="5.0 (Windows)" etag="x28r-N1oxUmGlsmY89bD" version="13.10.1" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -758,6 +758,21 @@
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_Vy0KgG0cyffUlwo2it-35" target="bkLNbHRLDbfqS2Prwh68-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-10" value="D3D12_DESCRIPTOR_HEAP_DESC &#xa;デスクリプタヒープに関する設定を記述する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="-280" width="470" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-11" value="+ Type: このビューをどのように使うのか&#xa;（レンダリングするときのターゲットか、定数バッファとして使用するかなど）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-10">
+          <mxGeometry y="40" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-12" value="+ UINT NumDescriptors: 作るディスクリプタの数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-10">
+          <mxGeometry y="80" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-13" value="+ Flags: シェーダーがこのビューを参照できるかどうか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-10">
+          <mxGeometry y="106" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-14" value="+ UINT NodeMask: 複数GPUがある場合、どこにこれを適用するか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bkLNbHRLDbfqS2Prwh68-10">
+          <mxGeometry y="132" width="470" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
