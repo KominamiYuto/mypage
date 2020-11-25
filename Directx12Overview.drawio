@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T04:41:24.489Z" agent="5.0 (Windows)" etag="ETqTmlAlYhdsENBI6pEb" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T04:41:44.486Z" agent="5.0 (Windows)" etag="O7GPmh7zyOPtTaaUTl3V" version="13.10.2" type="github">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -753,7 +753,7 @@
           <mxGeometry y="180" width="480" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-2" value="HRESULT WriteToSubresource()&#xa;CPUを利用してテクスチャデータをサブリソースにコピーする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="670" width="450" height="170" as="geometry" />
+          <mxGeometry x="960" y="680" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-3" value="+ UINT DstSubresource:サブリソースのインデックス番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-2" vertex="1">
           <mxGeometry y="40" width="450" height="26" as="geometry" />
