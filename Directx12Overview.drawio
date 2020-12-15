@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T13:29:17.357Z" agent="5.0 (Windows)" etag="eWdmp3msAGzvvdrAg-2J" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-15T13:53:34.117Z" agent="5.0 (Windows)" etag="1dcG56-fPnkV_GC8m0Ev" version="14.0.1" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="2633" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1253,7 +1253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-10" value="CreateSwapChainForHwnd()&#xa;HWNDハンドルに紐付けた DXGI_SWAP_CHAIN_DESC1 オブジェクトを生成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
-          <mxGeometry x="40" y="900" width="510" height="216" as="geometry" />
+          <mxGeometry x="50" y="900" width="510" height="216" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-11" value="+ *pDevice:作成したコマンドキューへのアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-10">
           <mxGeometry y="40" width="510" height="26" as="geometry" />
@@ -1280,7 +1280,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-18" value="Windows Store アプリではCreateSwapChainForCoreWindowを使用してください" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
-          <mxGeometry x="220" y="1170" width="330" height="60" as="geometry" />
+          <mxGeometry x="240" y="1150" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-20" value="ID3D12CommandQueue &#xa;コマンドリストの送信や実行、同期などを行うオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
           <mxGeometry x="-410" y="900" width="350" height="118" as="geometry" />
@@ -1299,6 +1299,57 @@
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-21" target="oI4v5wyeJCRzo6W9YPnZ-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-27" target="oI4v5wyeJCRzo6W9YPnZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-27" value="DXGI_SWAP_CHAIN_DESC1 &#xa;スワップチェーンについての設定を記述した構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="-300" y="1140" width="520" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-28" value="+ Width:ピクセル単位での幅（０にすると自動で幅を取得してくれる。&#xa;CreateSwapChainForComposition()では０にできない）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="40" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-29" value="+ Height:ピクセル単位での高さ（０にすると自動で高さを取得してくれる）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="80" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-30" value="+ Format:フレームバッファのピクセルフォーマット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="106" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-31" value="+ Stereo:立体視を使用するかの有無" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="132" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-32" value="+ SampleDesc:アンチエイリアスに関するDXGI_SAMPLE_DESC 構造体のアドレスが入る" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="158" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-33" value="+ BufferUsage:フレームバッファの使用方法を指定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="184" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-34" value="+ BufferCount:スワップチェーン内のバッファの数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="210" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-35" value="+ Scaling:フレームバッファとウィンドウのサイズが異なる場合の表示方法を指定 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="236" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-36" value="+ SwapEffect:画面を切り替えた後、描画画面になったフレームバッファの扱い方を指定 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="262" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-37" value="+ AlphaMode:フレームバッファの内容をウィンドウに表示する際のアルファ値の扱い方を指定 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="288" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-38" value="+ Flags:スワップチェーンオプションを指定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-27">
+          <mxGeometry y="314" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-39" target="oI4v5wyeJCRzo6W9YPnZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-39" value="DXGI_SAMPLE_DESC &#xa;アンチエイリアスのためのマルチサンプリングについて記述した構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="-520" y="1040" width="400" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-40" value="+ Count:アンチエイリアスのピクセルごとのサンプリング回数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-39">
+          <mxGeometry y="40" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-41" value="+ Quality:サンプリングの品質" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-39">
+          <mxGeometry y="66" width="400" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
