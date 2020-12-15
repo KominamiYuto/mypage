@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T09:35:24.406Z" agent="5.0 (Windows)" etag="RBbtG0zQOAbMJ2wOjLVP" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-15T09:35:43.919Z" agent="5.0 (Windows)" etag="LKZv_w4fy9nYxxdAAhD2" version="14.0.1" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="2633" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1085,7 +1085,7 @@
         <mxCell id="k_0Dtk4N-qwSHedxEZiP-0" value="+ **ppDevice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
           <mxGeometry y="146" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RRP00lQJFJsKxVfhYD8j-0" value="CreateDXGIFactory2&#xa;他の DXGIオブジェクトを作成することができるDXGI 1.3 factory を生成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+        <mxCell id="RRP00lQJFJsKxVfhYD8j-0" value="CreateDXGIFactory2()&#xa;他の DXGIオブジェクトを作成することができるDXGI 1.3 factory を生成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
           <mxGeometry x="360" y="160" width="470" height="118" as="geometry" />
         </mxCell>
         <mxCell id="RRP00lQJFJsKxVfhYD8j-1" value="+ Flags: デバッグを行なうかどうかのフラグ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RRP00lQJFJsKxVfhYD8j-0">
