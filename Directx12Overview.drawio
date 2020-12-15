@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T13:53:34.117Z" agent="5.0 (Windows)" etag="1dcG56-fPnkV_GC8m0Ev" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-15T14:53:04.930Z" agent="5.0 (Windows)" etag="XVKbQ5ELVkGOezUgkt9G" version="14.0.1" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="2633" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1350,6 +1350,18 @@
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-41" value="+ Quality:サンプリングの品質" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-39">
           <mxGeometry y="66" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-45" value="IDXGISwapChain4（４まである） &#xa;スワップチェーンを管理するためのクラスオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="640" y="1140" width="400" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-46" value="+ GetDesc1(): スワップチェーンの設定を記述した構造体を取得する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-45">
+          <mxGeometry y="40" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-47" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-45">
+          <mxGeometry y="66" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oI4v5wyeJCRzo6W9YPnZ-48" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-45">
+          <mxGeometry y="92" width="400" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
