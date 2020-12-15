@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T15:02:17.966Z" agent="5.0 (Windows)" etag="XIxjEEt4sWfUxIXBxqZ_" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:25:11.816Z" agent="5.0 (Windows)" etag="vlizbRmum_pgU7u65oy8" version="14.0.1" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
-    <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2633" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1022,7 +1022,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rExdROeSV9r-ttYCXDUN-46" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="292" width="140" height="118" as="geometry" />
+          <mxGeometry x="530" y="290" width="140" height="118" as="geometry" />
         </mxCell>
         <mxCell id="rExdROeSV9r-ttYCXDUN-47" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rExdROeSV9r-ttYCXDUN-46" vertex="1">
           <mxGeometry y="40" width="140" height="26" as="geometry" />
@@ -1061,6 +1061,26 @@
           <mxGeometry x="0.6765" y="-1" relative="1" as="geometry">
             <mxPoint x="-12" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="su-f_qKiPAsYSgsjOJFM" name="ページ2">
+    <mxGraphModel dx="1033" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-0" />
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-1" parent="6fUqUJHIa8pGk5_F6Sbg-0" />
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-2" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="420" y="310" width="140" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="40" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="66" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="92" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
