@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T07:25:11.816Z" agent="5.0 (Windows)" etag="vlizbRmum_pgU7u65oy8" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:47:36.858Z" agent="5.0 (Windows)" etag="yNycXEiWObz10gQ7arOu" version="14.0.1" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="2633" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1070,16 +1070,31 @@
       <root>
         <mxCell id="6fUqUJHIa8pGk5_F6Sbg-0" />
         <mxCell id="6fUqUJHIa8pGk5_F6Sbg-1" parent="6fUqUJHIa8pGk5_F6Sbg-0" />
-        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-2" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
-          <mxGeometry x="420" y="310" width="140" height="118" as="geometry" />
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-2" value="D3D12CreateDevice()&#xa;DirectX12デバイス（ID3D12Device）を作成する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="420" y="310" width="340" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-3" value="+ *pAdapter:デバイスを作るビデオアダプタへのポインタ&#xa;nullでデフォルト値が入る&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="40" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-4" value="+ MinimumFeatureLevel:デバイスの最小機能レベル&#xa;D3D_FEATURE_LEVELで指定&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="80" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-5" value="+ riid:ID3D12Deviceオブジェクトを作るよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="120" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k_0Dtk4N-qwSHedxEZiP-0" value="+ **ppDevice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+          <mxGeometry y="146" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRP00lQJFJsKxVfhYD8j-0" value="CreateDXGIFactory2&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
+          <mxGeometry x="360" y="160" width="140" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="RRP00lQJFJsKxVfhYD8j-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RRP00lQJFJsKxVfhYD8j-0">
           <mxGeometry y="40" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+        <mxCell id="RRP00lQJFJsKxVfhYD8j-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RRP00lQJFJsKxVfhYD8j-0">
           <mxGeometry y="66" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6fUqUJHIa8pGk5_F6Sbg-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-2">
+        <mxCell id="RRP00lQJFJsKxVfhYD8j-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RRP00lQJFJsKxVfhYD8j-0">
           <mxGeometry y="92" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
