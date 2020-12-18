@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T06:17:25.643Z" agent="5.0 (Windows)" etag="A_yL2NO-9rNXDqr7JZXd" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-18T09:04:00.559Z" agent="5.0 (Windows)" etag="Zr1hCXr4uFGqQZCWIsDt" version="14.0.5" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1280,7 +1280,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-18" value="Windows Store アプリではCreateSwapChainForCoreWindowを使用してください" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="6fUqUJHIa8pGk5_F6Sbg-1" vertex="1">
-          <mxGeometry x="240" y="1150" width="330" height="60" as="geometry" />
+          <mxGeometry x="680" y="1130" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-20" value="ID3D12CommandQueue &#xa;コマンドリストの送信や実行、同期などを行うオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6fUqUJHIa8pGk5_F6Sbg-1" vertex="1">
           <mxGeometry x="-410" y="900" width="350" height="118" as="geometry" />
@@ -1352,7 +1352,7 @@
           <mxGeometry y="66" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-45" value="IDXGISwapChain4（４まである） &#xa;スワップチェーンを管理するためのクラスオブジェクト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6fUqUJHIa8pGk5_F6Sbg-1" vertex="1">
-          <mxGeometry x="640" y="1140" width="400" height="170" as="geometry" />
+          <mxGeometry x="410" y="1200" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-46" value="+ GetDesc1(): スワップチェーンの設定を記述した構造体を取得する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oI4v5wyeJCRzo6W9YPnZ-45" vertex="1">
           <mxGeometry y="40" width="400" height="26" as="geometry" />
@@ -1363,37 +1363,40 @@
         <mxCell id="oI4v5wyeJCRzo6W9YPnZ-48" value="+ HRESULT Present1(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oI4v5wyeJCRzo6W9YPnZ-45" vertex="1">
           <mxGeometry y="92" width="400" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-9" value="+ HRESULT Present(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-45">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-9" value="+ HRESULT Present(): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oI4v5wyeJCRzo6W9YPnZ-45" vertex="1">
           <mxGeometry y="118" width="400" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-11" value="+ UINT GetCurrentBackBufferIndex(): 現在のバックバッファ番号を取得" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oI4v5wyeJCRzo6W9YPnZ-45">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-11" value="+ UINT GetCurrentBackBufferIndex(): 現在のバックバッファ番号を取得" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oI4v5wyeJCRzo6W9YPnZ-45" vertex="1">
           <mxGeometry y="144" width="400" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-0" value="GetBuffer()&#xa;スワップチェーンが作成したバックバッファにアクセスする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
-          <mxGeometry x="1150" y="1180" width="390" height="118" as="geometry" />
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-0" value="GetBuffer()&#xa;スワップチェーンが作成したバックバッファにアクセスする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6fUqUJHIa8pGk5_F6Sbg-1" vertex="1">
+          <mxGeometry x="880" y="1210" width="390" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-1" value="+ Buffer: バッファのインデックス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Z-pjEGMbXx1qUe3kJGK-0">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-1" value="+ Buffer: バッファのインデックス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6Z-pjEGMbXx1qUe3kJGK-0" vertex="1">
           <mxGeometry y="40" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-2" value="+ riid: ID3D12Resourceオブジェクトを作るよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Z-pjEGMbXx1qUe3kJGK-0">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-2" value="+ riid: ID3D12Resourceオブジェクトを作るよ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6Z-pjEGMbXx1qUe3kJGK-0" vertex="1">
           <mxGeometry y="66" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-3" value="+ **ppSurface: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Z-pjEGMbXx1qUe3kJGK-0">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-3" value="+ **ppSurface: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6Z-pjEGMbXx1qUe3kJGK-0" vertex="1">
           <mxGeometry y="92" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-47" target="6Z-pjEGMbXx1qUe3kJGK-0">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-47" target="6Z-pjEGMbXx1qUe3kJGK-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-5" value="Present()&#xa;画面を表示する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6fUqUJHIa8pGk5_F6Sbg-1">
-          <mxGeometry x="1010" y="1320" width="250" height="92" as="geometry" />
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-5" value="Present()&#xa;画面を表示する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6fUqUJHIa8pGk5_F6Sbg-1" vertex="1">
+          <mxGeometry x="880" y="1340" width="250" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-6" value="+ SyncInterval: 垂直同期を待つフレーム数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Z-pjEGMbXx1qUe3kJGK-5">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-6" value="+ SyncInterval: 垂直同期を待つフレーム数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6Z-pjEGMbXx1qUe3kJGK-5" vertex="1">
           <mxGeometry y="40" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-7" value="+ Flags: DXGI_PRESENTにあるオプション" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Z-pjEGMbXx1qUe3kJGK-5">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-7" value="+ Flags: DXGI_PRESENTにあるオプション" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6Z-pjEGMbXx1qUe3kJGK-5" vertex="1">
           <mxGeometry y="66" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="6Z-pjEGMbXx1qUe3kJGK-9" target="6Z-pjEGMbXx1qUe3kJGK-5">
+        <mxCell id="6Z-pjEGMbXx1qUe3kJGK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="6Z-pjEGMbXx1qUe3kJGK-9" target="6Z-pjEGMbXx1qUe3kJGK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXjzgAN8-gqCk4jbr9s-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6fUqUJHIa8pGk5_F6Sbg-1" source="oI4v5wyeJCRzo6W9YPnZ-17" target="oI4v5wyeJCRzo6W9YPnZ-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
