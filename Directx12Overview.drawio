@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T10:40:34.146Z" agent="5.0 (Windows)" etag="pMJOaDmbzQ3SpPguTvjS" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-16T14:46:50.036Z" agent="5.0 (Windows)" etag="ZG0XIVHMJ8-Wx5bu3Mw9" version="14.2.3" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3662" dy="2352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1013,7 +1013,7 @@
             <mxPoint x="840" y="-990" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rExdROeSV9r-ttYCXDUN-41" value="配列の番号と同じ番号を入れることで結び付けられる。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rExdROeSV9r-ttYCXDUN-40" vertex="1" connectable="0">
+        <mxCell id="rExdROeSV9r-ttYCXDUN-41" value="D3D12_ROOT_PARAMETER 構造体で作られた配列の番号と同じ番号を入れることで結び付けられる。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rExdROeSV9r-ttYCXDUN-40" vertex="1" connectable="0">
           <mxGeometry x="-0.7955" y="-4" relative="1" as="geometry">
             <mxPoint x="744" y="-4" as="offset" />
           </mxGeometry>
