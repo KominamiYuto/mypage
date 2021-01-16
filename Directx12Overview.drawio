@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T14:46:50.036Z" agent="5.0 (Windows)" etag="ZG0XIVHMJ8-Wx5bu3Mw9" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-16T14:47:45.464Z" agent="5.0 (Windows)" etag="o4IJCh5xlcs63-0fUzMs" version="14.2.3" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3662" dy="2352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -900,23 +900,23 @@
         <mxCell id="rExdROeSV9r-ttYCXDUN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bkLNbHRLDbfqS2Prwh68-60" target="bkLNbHRLDbfqS2Prwh68-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bkLNbHRLDbfqS2Prwh68-60" value="D3D12_DESCRIPTOR_RANGE&#xa;複数のディスクリプタをまとめてGPUで使用するための設定を記述した構造体　100個データを用意して一度に全部設定できる様になりたいだろう？" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-850" width="820" height="216" as="geometry" />
+        <mxCell id="bkLNbHRLDbfqS2Prwh68-60" value="D3D12_DESCRIPTOR_RANGE&#xa;複数のディスクリプタをまとめてGPUで使用するための設定を記述した構造体　100個データを用意した時、一度に全部設定できる様になりたいだろう？" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-850" width="840" height="216" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-61" value="+ RangeType: ディスクリプタの種類" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-60" vertex="1">
-          <mxGeometry y="40" width="820" height="26" as="geometry" />
+          <mxGeometry y="40" width="840" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-63" value="+ UINT NumDescriptors:ディスクリプタの数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-60" vertex="1">
-          <mxGeometry y="66" width="820" height="26" as="geometry" />
+          <mxGeometry y="66" width="840" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-64" value="+ UINT BaseShaderRegister: 先頭レジスタの番号&#xa;例えばSRVの場合、3はHLSLでregister(t3)にマップされる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-60" vertex="1">
-          <mxGeometry y="92" width="820" height="48" as="geometry" />
+          <mxGeometry y="92" width="840" height="48" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-65" value="+ UINT RegisterSpace: ディスクリプタ配列が重複してないかのように扱える&#xa;5にするとregister(t3,space5)としてHLSLで扱える" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-60" vertex="1">
-          <mxGeometry y="140" width="820" height="50" as="geometry" />
+          <mxGeometry y="140" width="840" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-66" value="+ UINT OffsetInDescriptorsFromTableStart: 前のスロットから次のスロットまでの間隔" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-60" vertex="1">
-          <mxGeometry y="190" width="820" height="26" as="geometry" />
+          <mxGeometry y="190" width="840" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rExdROeSV9r-ttYCXDUN-3" value="D3D12_STATIC_SAMPLER_DESC &#xa;テクスチャーから値をどう取り出すかを設定する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-644" width="550" height="398" as="geometry" />
