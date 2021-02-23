@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T06:55:35.373Z" agent="5.0 (Windows)" etag="0yyzrq3TQldxaXpD_1Pp" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-23T06:59:11.852Z" agent="5.0 (Windows)" etag="d6YLpZPZYI2W-CxQsZrg" version="14.2.9" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3662" dy="2352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1080,17 +1080,23 @@
         <mxCell id="pNxysth8sUD--_l_pIi--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="pNxysth8sUD--_l_pIi--3" target="HeyLNfM1O47L-fauejLD-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hqSvbfryBk1L5edI0S2_-1" value="void ClearRenderTargetView()&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="1160" width="460" height="118" as="geometry" />
+        <mxCell id="hqSvbfryBk1L5edI0S2_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.074;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hqSvbfryBk1L5edI0S2_-1" target="HeyLNfM1O47L-fauejLD-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hqSvbfryBk1L5edI0S2_-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
+        <mxCell id="hqSvbfryBk1L5edI0S2_-1" value="void ClearRenderTargetView()&#xa;レンダーターゲットを指定した色でクリアする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="1160" width="460" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hqSvbfryBk1L5edI0S2_-2" value="+ RenderTargetView: クリアするレンダーターゲットのポインタ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
           <mxGeometry y="40" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hqSvbfryBk1L5edI0S2_-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
+        <mxCell id="hqSvbfryBk1L5edI0S2_-3" value="+ ColorRGBA: 塗りつぶす色" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
           <mxGeometry y="66" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hqSvbfryBk1L5edI0S2_-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
+        <mxCell id="hqSvbfryBk1L5edI0S2_-4" value="+ UINT NumRects: クリアするリソースビューの数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
           <mxGeometry y="92" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hqSvbfryBk1L5edI0S2_-5" value="+ *pRects : クリアするリソースビューの長方形の配列" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hqSvbfryBk1L5edI0S2_-1">
+          <mxGeometry y="118" width="460" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
