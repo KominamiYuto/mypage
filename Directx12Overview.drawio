@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T15:30:53.079Z" agent="5.0 (Windows)" etag="ni-85VtbMbEFf2E_uduw" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-08T15:35:26.196Z" agent="5.0 (Windows)" etag="1hfOqBmiAZgaNW47BeWz" version="15.8.2" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
-    <mxGraphModel dx="3022" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3273" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1107,7 +1107,7 @@
         <mxCell id="5dsWozLF3VZpr6cxwWwz-2" value="+ UINT RootParameterIndex: 結びつける配列の番号（定数バッファービュー）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5dsWozLF3VZpr6cxwWwz-1">
           <mxGeometry y="40" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5dsWozLF3VZpr6cxwWwz-3" value="+ BufferLocation: 定数バッファーのGPUアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5dsWozLF3VZpr6cxwWwz-1">
+        <mxCell id="5dsWozLF3VZpr6cxwWwz-3" value="+ BufferLocation: 定数バッファーのリソースのGPUアドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5dsWozLF3VZpr6cxwWwz-1">
           <mxGeometry y="66" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5dsWozLF3VZpr6cxwWwz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5dsWozLF3VZpr6cxwWwz-7" target="bkLNbHRLDbfqS2Prwh68-52">
