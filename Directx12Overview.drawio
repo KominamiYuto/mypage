@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T15:21:59.963Z" agent="5.0 (Windows)" etag="dP2QW1SCOZfPTaPwxbxd" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-08T15:30:53.079Z" agent="5.0 (Windows)" etag="ni-85VtbMbEFf2E_uduw" version="15.8.2" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -491,7 +491,7 @@
         <mxCell id="E_Vy0KgG0cyffUlwo2it-15" value="void IASetVertexBuffers()&#xa;描画する頂点バッファを指定する関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1100" width="440" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="E_Vy0KgG0cyffUlwo2it-16" value="+ StartSlot: 描画する頂点バッファを指定するスロットの（配列）番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-15" vertex="1">
+        <mxCell id="E_Vy0KgG0cyffUlwo2it-16" value="+ StartSlot: 描画する頂点バッファを指定する最初のスロット（配列）番号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-15" vertex="1">
           <mxGeometry y="38" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="E_Vy0KgG0cyffUlwo2it-17" value="+ NumViews: pViews配列内のビューの数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="E_Vy0KgG0cyffUlwo2it-15" vertex="1">
