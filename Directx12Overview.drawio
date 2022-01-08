@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T15:35:26.196Z" agent="5.0 (Windows)" etag="1hfOqBmiAZgaNW47BeWz" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-08T15:38:32.586Z" agent="5.0 (Windows)" etag="bLaX6W_oq4IbVfF_HlMq" version="15.8.2" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3273" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -957,7 +957,7 @@
         <mxCell id="rExdROeSV9r-ttYCXDUN-14" value="+ UINT ShaderRegister: これを適用するシェーダーレジスタ（t2 なら2)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rExdROeSV9r-ttYCXDUN-3" vertex="1">
           <mxGeometry y="320" width="550" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rExdROeSV9r-ttYCXDUN-15" value="+ UINT RegisterSpace: これを適用するレジスタスペース" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rExdROeSV9r-ttYCXDUN-3" vertex="1">
+        <mxCell id="rExdROeSV9r-ttYCXDUN-15" value="+ UINT RegisterSpace: これを適用するレジスタ空間" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rExdROeSV9r-ttYCXDUN-3" vertex="1">
           <mxGeometry y="346" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rExdROeSV9r-ttYCXDUN-16" value="+ ShaderVisibility: どのシェーダーから利用可能か" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rExdROeSV9r-ttYCXDUN-3" vertex="1">
