@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T04:35:09.273Z" agent="5.0 (Windows)" etag="IY00Qa46P0jTnDvrU_or" version="16.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-10T12:45:30.135Z" agent="5.0 (Windows)" etag="je-3uj7qvu1w4m3dR9Y5" version="16.2.4" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
-    <mxGraphModel dx="4026" dy="2541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3273" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -820,19 +820,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-26" value="D3D12_SHADER_RESOURCE_VIEW_DESC &#xa;シェーダーリソースビュー(SRV)について設定する構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="477" width="450" height="180" as="geometry" />
+          <mxGeometry x="2460" y="477" width="470" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-27" value="+ Format: テクスチャのフォーマット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-26" vertex="1">
-          <mxGeometry y="40" width="450" height="26" as="geometry" />
+          <mxGeometry y="40" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-28" value="+ ViewDimension: テクスチャの次元を決める&#xa;（単なるバッファーか、1Dテクスチャー？2Dテクスチャ？）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-26" vertex="1">
-          <mxGeometry y="66" width="450" height="44" as="geometry" />
+          <mxGeometry y="66" width="470" height="44" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-29" value="+ UINT Shader4ComponentMapping: データのRGBAをどの様に解釈するか" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-26" vertex="1">
-          <mxGeometry y="110" width="450" height="26" as="geometry" />
+          <mxGeometry y="110" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-32" value="+ union要素: テクスチャのミップマップをどうするかなどを設定する構造体が入る。&#xa;この要素はViewDimensionの次元によって入れる構造体が異なる。&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bkLNbHRLDbfqS2Prwh68-26" vertex="1">
-          <mxGeometry y="136" width="450" height="44" as="geometry" />
+          <mxGeometry y="136" width="470" height="44" as="geometry" />
         </mxCell>
         <mxCell id="bkLNbHRLDbfqS2Prwh68-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bkLNbHRLDbfqS2Prwh68-19" target="bkLNbHRLDbfqS2Prwh68-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
