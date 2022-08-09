@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T13:10:11.428Z" agent="5.0 (Windows)" etag="oAHQHU9Y2PUkPTw-m9od" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T13:30:53.375Z" agent="5.0 (Windows)" etag="OJlCEeUYB3hS6ZZpJIg-" version="20.2.3" type="github" pages="2">
   <diagram id="LrscQj9h3E69tov9utjE" name="Page-1">
     <mxGraphModel dx="3022" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1137,8 +1137,16 @@
         <mxCell id="g68hdWKDUwSBFmPNCYQU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bkLNbHRLDbfqS2Prwh68-23" target="E_Vy0KgG0cyffUlwo2it-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pmocAFW6rQRsDbN2Dpkr-1" value="CopyTextureRegion()&#xa;GPU内でテクスチャデータのやりとりをする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1550" width="552.5" height="196" as="geometry" />
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pmocAFW6rQRsDbN2Dpkr-1" target="HeyLNfM1O47L-fauejLD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="1450" />
+              <mxPoint x="572" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmocAFW6rQRsDbN2Dpkr-1" value="CopyTextureRegion()&#xa;GPU内でテクスチャデータのコピーをする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="7.5" y="1510" width="552.5" height="196" as="geometry" />
         </mxCell>
         <mxCell id="pmocAFW6rQRsDbN2Dpkr-2" value="+ *pDst: D3D12_TEXTURE_COPY_LOCATION 構造体で記述されたコピー先アドレス" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-1" vertex="1">
           <mxGeometry y="40" width="552.5" height="26" as="geometry" />
@@ -1158,20 +1166,25 @@
         <mxCell id="pmocAFW6rQRsDbN2Dpkr-11" value="+ pSrcBox: D3D12_BOX構造体で設定できる元テクスチャのサイズ（オプション）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-1" vertex="1">
           <mxGeometry y="170" width="552.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pmocAFW6rQRsDbN2Dpkr-5" value="Classname&#xa;disc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1540" width="140" height="118" as="geometry" />
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.336;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pmocAFW6rQRsDbN2Dpkr-5" target="HeyLNfM1O47L-fauejLD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="1490" />
+              <mxPoint x="585" y="1490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pmocAFW6rQRsDbN2Dpkr-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-5" vertex="1">
-          <mxGeometry y="40" width="140" height="26" as="geometry" />
+        <mxCell id="pmocAFW6rQRsDbN2Dpkr-5" value="CopyResource()&#xa;GPU内でリソースをコピーする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1523" width="290" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="pmocAFW6rQRsDbN2Dpkr-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-5" vertex="1">
-          <mxGeometry y="66" width="140" height="26" as="geometry" />
+        <mxCell id="pmocAFW6rQRsDbN2Dpkr-6" value="+ *pDstResource: コピー先リソース" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-5" vertex="1">
+          <mxGeometry y="40" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pmocAFW6rQRsDbN2Dpkr-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-5" vertex="1">
-          <mxGeometry y="92" width="140" height="26" as="geometry" />
+        <mxCell id="pmocAFW6rQRsDbN2Dpkr-7" value="+ *pSrcResource: コピー元リソース" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-5" vertex="1">
+          <mxGeometry y="66" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pmocAFW6rQRsDbN2Dpkr-12" value="D3D12_TEXTURE_COPY_LOCATION &#xa;テクスチャをコピーするための情報を入れた構造体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-500" y="1432" width="600" height="152" as="geometry" />
+          <mxGeometry x="-640" y="1450" width="600" height="152" as="geometry" />
         </mxCell>
         <mxCell id="pmocAFW6rQRsDbN2Dpkr-13" value="+ *pResource: コピーするリソースのアドレス。&#xa;TypeがD3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINTの場合、バッファのリソースを、&#xa;TypeがD3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEXの場合、テクスチャのリソースを入れる&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pmocAFW6rQRsDbN2Dpkr-12" vertex="1">
           <mxGeometry y="40" width="600" height="60" as="geometry" />
@@ -1182,8 +1195,11 @@
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-1" value="+ union要素:D3D12_TEXTURE_COPY_TYPEで何を入れるか決める " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pmocAFW6rQRsDbN2Dpkr-12">
           <mxGeometry y="126" width="600" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wd7BVvAzdsysyJsWDAEA-2" target="Wd7BVvAzdsysyJsWDAEA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-2" value="D3D12_TEXTURE_COPY_LOCATION で使える共用体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="1628" width="450" height="92" as="geometry" />
+          <mxGeometry x="-770" y="1638" width="450" height="92" as="geometry" />
         </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-3" value="+ PlacedFootprint: D3D12_PLACED_SUBRESOURCE_FOOTPRINT 構造体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-2">
           <mxGeometry y="40" width="450" height="26" as="geometry" />
@@ -1191,8 +1207,11 @@
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-4" value="+ UINT: SubresourceIndex" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-2">
           <mxGeometry y="66" width="450" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wd7BVvAzdsysyJsWDAEA-6" target="Wd7BVvAzdsysyJsWDAEA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-6" value="D3D12_PLACED_SUBRESOURCE_FOOTPRINT 構造体&#xa;サブリソースのメモリ情報を入れる。リソースを分割してコピーできる" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="1730" width="400" height="110" as="geometry" />
+          <mxGeometry x="-300" y="1720" width="400" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-7" value="+ Offset: 親リソース内のサブリソースのオフセット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-6">
           <mxGeometry y="40" width="400" height="26" as="geometry" />
@@ -1200,8 +1219,11 @@
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-8" value="+ Footprint: D3D12_SUBRESOURCE_FOOTPRINT 構造体で記述した&#xa;リソースのメモリの情報&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-6">
           <mxGeometry y="66" width="400" height="44" as="geometry" />
         </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wd7BVvAzdsysyJsWDAEA-10" target="Wd7BVvAzdsysyJsWDAEA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-10" value="D3D12_SUBRESOURCE_FOOTPRINT 構造体&#xa;親リソースに対するサブリソースの情報を入れた構造他" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1860" width="505" height="190" as="geometry" />
+          <mxGeometry x="-245" y="1870" width="505" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-11" value="+ Format: DXGI_FORMAT構造体で記述するフォーマットの情報" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-10">
           <mxGeometry y="40" width="505" height="26" as="geometry" />
@@ -1217,6 +1239,35 @@
         </mxCell>
         <mxCell id="Wd7BVvAzdsysyJsWDAEA-15" value="+ RowPitch: 一行当たりのデータサイズ。&#xa;一行は必ずD3D12_TEXTURE_DATA_PITCH_ALIGNMENT (256)バイトの倍数にすること" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-10">
           <mxGeometry y="144" width="505" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wd7BVvAzdsysyJsWDAEA-16" target="HeyLNfM1O47L-fauejLD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="1500" />
+              <mxPoint x="601" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-16" value="CopyBufferRegion()&#xa;バッファリソースをコピーする関数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1523" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-17" value="+ *pDstBuffer: コピー先のリソース" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-16">
+          <mxGeometry y="40" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-18" value="+ UINT64 DstOffset: コピー先リソースのオフセット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-16">
+          <mxGeometry y="66" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-19" value="+ *pSrcBuffer: コピー元リソース" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-16">
+          <mxGeometry y="92" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-20" value="+ UINT64 SrcOffset: コピー元リソースのオフセット" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-16">
+          <mxGeometry y="118" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-21" value="+ UINT64 NumBytes: コピーするバイト数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Wd7BVvAzdsysyJsWDAEA-16">
+          <mxGeometry y="144" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd7BVvAzdsysyJsWDAEA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmocAFW6rQRsDbN2Dpkr-13" target="pmocAFW6rQRsDbN2Dpkr-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
